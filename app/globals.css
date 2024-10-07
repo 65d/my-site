@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.animation-53895y3945 {
+  animation: slide-load 1s ease-out;
+}
+
+@keyframes slide-load {
+  0% {
+    transform: scale(0.0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
